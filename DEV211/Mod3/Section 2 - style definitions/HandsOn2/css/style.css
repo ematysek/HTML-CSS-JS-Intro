@@ -1,0 +1,20 @@
+p {
+	font-style: italic;
+}
+
+article p {
+	background-color: darkorange;
+	font-size: 40px;
+}
+
+article > p {
+	color: red;
+}
+
+article > section > p {
+	color: blue
+}
+
+article > section > p:last-child {
+	font-weight: bold;
+}
